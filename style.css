@@ -1,0 +1,74 @@
+body{
+    background-image: url(/blank-paper-with-flower-petals-blue-table_23-2148069180.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+
+}
+#mainheading{
+font-weight: bold;
+color: palevioletred;
+font-size: 50px;
+font-family: fantasy;
+text-shadow: 10px 10px lightskyblue;
+}
+#tagline{
+font-family: monospace;
+    text-align: center;
+    font-style: italic;
+    text-decoration: wavy;
+    text-shadow: 3px 4px lightskyblue;
+    color: palevioletred;
+
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid palevioletred;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: lightskyblue;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+input:hover {
+    border-color: #1131be;
+}
+input:focus {
+    outline: none;
+    border-color: #007BFF; 
+    box-shadow: 0 0 5px #007BFF;
+}
+.button,.deletestyling,.editstyling{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: lightskyblue; 
+    color: rgb(245, 44, 111); 
+    border-radius: 5px; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-weight: bold;
+    margin: 5px;
+   border-color: #0056b3;
+}
+.button,.deletestyling,.editstyling:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+}
+.button,.deletestyling,.editstyling:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.7); 
+}
+#all{
+    background-color: lightskyblue;
+}
+li{
+    font-size: 30px;
+    color: #1131be;
+    text-decoration: underline;
+}
+
